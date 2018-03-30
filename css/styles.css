@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font: bold 15px "lucida grande";
+    cursor: default;
+}
+button {
+    background: gray;
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin: 0 3px;
+    border-radius: 5px;
+}
+button:hover {
+    background: white;
+    border: 2px solid gray;
+    color: gray;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+input {
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 45px;
+    height: 30px;
+}
